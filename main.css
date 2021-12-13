@@ -1,0 +1,125 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin:0;
+  background:#FF6347;
+  font-family: "Verdana";
+  font-size:20px;
+  color:LightGoldenRodYellow;
+}
+
+img{
+  max-width:100%;
+  max-height:100%;
+}
+
+a {
+  color:LightGoldenRodYellow;
+
+
+.image {
+  height:75%;
+}
+
+.story {
+  max-width:600px;
+  text-align:center;
+}
+
+.options{
+  flex-shrink:0;
+  height:100%;
+}
+
+#titlebox { border: 2px black }
+#square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+
+#square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+div {
+  width: 300px;
+  border: 15px solid LightGoldenRodYellow;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+<style>
+body {
+  background-image: url('graph-paper.jpg');
+  background-repeat: no-repeat;
+}
+
+div.ex4 {
+  overflow-x: visible;
+}
+</style>
+
+<style>
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: LightGoldenRodYellow;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+</style>
+</head>
+<body>
+<button class="btn"></button>
+
+
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  flex: 100%;
+  max-width: 100%;
+}
+}
+
+</body>
+</style>
