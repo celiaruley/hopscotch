@@ -5,31 +5,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
-</head>
-
-  <style>
-h1 {
-  text-align: center;
+<style>
+.hopcontainer {
+      display: inline;
+      position: relative;
+      top: 6em;
 }
-
-h2 {
-  text-align: left;
+.hopbox {
+  padding: 1em;
+  position: relative;
+  float: left;
+  width: 10em;
+  height: 10em;
+  border: 10px solid LightGoldenRodYellow;
+  font-size: small;
 }
-
-h3 {
-  text-align: right;
+.hopbox:hover {
+  background-color: black;
+}
+.stackedup {
+  top: -5em;
+}
+.stackeddown{
+  top: 5em;
+  left: -10em;
+}
+.after {
+  /* gotta do something like this to make subsequent boxes move back */
+  left: -10em;
 }
 </style>
-
-<h1></h1>
+</head>
 
 <body>
-  <style>
-  img {
-    width: 100%
-    height: auto;
-  }
-  </style>
   <div class="image">
     <img src="img/hopscotch-header.png" width=50% height=80%>
   </div>
@@ -42,67 +50,6 @@ h3 {
 <p>To navigate, move your mouse over the grid. Click on the square you want to explore, and the home button will always bring you back here.</p>
 
 
-  <style>
-  h3{
-    text-align: left;
-  }
-  </style>
-
-    </div>
-    <html>
-  <head>
-    <style>
-    .hopcontainer {
-      display: inline;
-      position: relative;
-      top: 20em;
-    }
-    .hopbox {
-      padding: 45px;
-      position: relative;
-      float: left;
-      width: 10em;
-      height: 10em;
-      border: 15px solid LightGoldenRodYellow;
-    }
-    .hopbox:hover {
-      background-color: black;
-    }
-    .stackedup {
-      top: -5em;
-    }
-    .stackeddown{
-      top: 5em;
-      left: -10em;
-    }
-    .after {
-      /* gotta do something like this to make subsequent boxes move back */
-      left: -10em;
-
-    }
-
-    a:hover {
-      background-color: black;
-    }
-    </style>
-
-    <style>
-.btn-disabled {
-  background-color: #FF6347;
-  border: none;
-  color: LightGoldenRodYellow;
-  padding: 50px 50px;
-  text-align: center;
-  font-size: 24px;
-  margin: 10px 10px;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-
-.btn:hover {
-
-}
-</style>
 </head>
 <body>
 
